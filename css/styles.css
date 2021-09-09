@@ -115,10 +115,10 @@ body {
 * Meet Us Styling
 */
 .intro-bg {
+    position: center;
     background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     height: 600%;
     transform: skewY(-20deg);
-
 }
 
 .content {
