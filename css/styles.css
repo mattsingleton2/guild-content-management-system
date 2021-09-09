@@ -110,3 +110,20 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+/*
+* Meet Us Styling
+*/
+.intro-bg {
+    background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    height: 600%;
+    transform: skewY(-20deg);
+
+}
+
+.content {
+    max-width: 50em;
+    margin: 0 auto;
+    color: black;
+    text-shadow: #333;
+}
