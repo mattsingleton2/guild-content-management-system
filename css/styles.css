@@ -128,3 +128,69 @@ body {
     text-shadow: #333;
 }
 
+input[type="text"]::placeholder { 
+                  
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+input[type="email"]::placeholder { 
+                  
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+form[class="forms"]::placeholder { 
+                  
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+textarea[name="message"]::placeholder { 
+                  
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+.input {
+  margin-bottom: 0;  
+  margin-top: 0;
+  padding-bottom: 0;  
+  padding-top: 0;
+}
+
+.form-control:focus {
+  outline: none;
+}
+.form-control {
+  border: 0;
+  line-height: 2.0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #333 !important;
+  border-color: white;
+}
+
+.custom-checkbox {
+  margin-right: 10px;
+}
+.custom-control-description {
+  color: white;
+  font-size: 12px;
+  line-height: 2.7;
+  text-transform: uppercase;
+  
+}
+
+.form-group #submit .btn {
+  margin-left: 13px;
+}
+
+option {
+  text-align: center;
+  
+}
+select {
+  text-align-last: center;
+  text-align: center;
+}
