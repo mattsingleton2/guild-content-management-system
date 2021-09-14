@@ -107,3 +107,9 @@ body {
 .carouselCard h4, .carouselCard p {
   color: black; }
 
+.fab {
+  color: white; }
+
+.fab:hover {
+  color: #40E340;
+  transform: scale(1.5); }
