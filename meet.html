@@ -31,48 +31,47 @@
   </head>
 
   <!--Navigation Bar-->
-  <body>
+  <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <div class="row mb-5">
-        <header class="masthead mb-auto">
-          <div class="inner">
-            <h3 class="masthead-brand text-center">GCMS</h3>
-            <nav class="nav nav-masthead justify-content-center">
-              <a class="nav-link" href="index.html">Home</a>
-              <a class="nav-link" href="features.html">Features</a>
-              <a class="nav-link active" href="#">Meet the Team</a>
-              <a class="nav-link" href="aboutus.html">About Us</a>
-              <a class="nav-link" href="contactus.html">Contact</a>
-            </nav>
-          </div>
-        </header>
-      </div>
-
-      <!-- spacing... -->
-      <div class="row mt-5 mb-5"></div>
-      <div class="row mb-5"></div>
-      <div class="row mb-5"></div>
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">GCMS</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="features.html">Features</a>
+            <a class="nav-link active" href="#">Meet the Team</a>
+            <a class="nav-link" href="aboutus.html">About Us</a>
+            <a class="nav-link" href="contactus.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+   
       <!-- !spacing done. There's likely a better way to do this... -->
 
-      <div class="row">
-        <div class="intro-bg">
-          <div class="col-12">
-            <div class="content">
-              <p class="fun-hover text-center">Matt Singleton</p>
+<!-- Sarah Input. -->
+<div class="row">
+    <div class="container">
+      <div class="col-12">
+        <div class="accordion" id="accordionTeam">
+            <div class="intro-bg card">
+                <h1 class="text-center" style="color: #333333">The Team</h1>
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Matt Singleton
+                        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTeam">
+                        <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-12">
-            <div class="content">
-              <p class="fun-hover text-center">Sarah McCutcheon</p>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="content">
-              <p class=".moreBtn">testing</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+</div>
+</div>
 
       <footer class="mastfoot mt-auto">
         <div class="container">
@@ -107,7 +106,9 @@
             </div>
           </div>
           <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-          <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
         </div>
       </footer>
     </div>
