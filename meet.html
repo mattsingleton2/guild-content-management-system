@@ -45,27 +45,30 @@
             </nav>
         </div>
       </header>
-  
+
+
     <div class="row">
-        <div class="col-12">
+        <div class="col-6">
             <div class="accordion" id="accordionTeam">
                 <div class="intro-bg card">
                     <h1 class="text-center" style="color: #333333">The Team</h1>
+                    <div id="testing">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
-                            <button class="btn btn-link btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Matt Singleton</button>
+                            <button class="btn btn-link btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="msingleton">Matt Singleton</button>
                             </h5>
                         </div>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionTeam">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTeam">
                             <div class="card-body" style="color:black">
-                                Here's some information about Matt Singleton . . . . We should really get media in here as well for image / text display.
+                                Matt Singleton is a new developer excited to tackle the full-stack NuCamp development course. He works currently as a Business Analyst for United Recovery & Remarketing and plans to ply his coding knowledge at the same place upon completing the course. He likes long walks on the beach and peanut butter pie.
                             </div>
                         </div>
+                    </div>
                 </div>
                     <div class="intro-bg card">
                             <div class="card-header" id="headingTwo">
                                 <h5 class="mb-0">
-                                <button class="btn btn-link btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">Sarah McCutcheon</button>
+                                <button class="btn btn-link btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne" id="smccutcheon">Sarah McCutcheon</button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTeam">
@@ -77,7 +80,7 @@
                     <div class="intro-bg card">
                         <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
-                            <button class="btn btn-link btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Abdulai Jalloh</button>
+                            <button class="btn btn-link btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne" id="ajalloh">Abdulai Jalloh</button>
                             </h5>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTeam">
@@ -86,6 +89,12 @@
                             </div>
                         </div>
                 </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="intro-bg-normal" id="photoFrame">
+                <img id="myPhoto" src="img/Logo.png" style="max-width: 80%; max-height: 80%;" />
+                <h4 id="photoLabel">The GCMS Team</h4>
             </div>
         </div>
     </div>
@@ -127,7 +136,7 @@
           <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
           <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
           <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-          <script src="js/scripts.js"></script>
+          <script src="scripts/scripts.js"></script>
         </div>
       </footer>
     </div>
