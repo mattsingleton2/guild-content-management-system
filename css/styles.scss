@@ -2,6 +2,8 @@
  * Globals
  */
 
+ $color-hover: #40E340;
+
 /* Links */
 a,
 a:focus,
@@ -132,4 +134,12 @@ body {
   h4, p {
     color: black;
   }
+}
+
+.fab {
+  color: white;
+}
+.fab:hover {
+  color:  $color-hover;
+  transform: scale(1.5);
 }
