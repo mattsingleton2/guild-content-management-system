@@ -125,7 +125,8 @@ body {
 
 .intro-bg:hover {
   transform: skewY(0deg);
-  transform: scale3d(1.25);
+  transform: scale(1.15);
+  transform: translateY(-25px);
 }
 
 .intro-bg-normal {
