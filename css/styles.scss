@@ -2,6 +2,8 @@
  * Globals
  */
 
+ $color-hover: #40E340;
+
 /* Links */
 a,
 a:focus,
@@ -39,7 +41,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 65em;
 }
 
 
@@ -118,7 +120,20 @@ body {
     position: center;
     background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     height: 100%;
-    transform: skewY(-15deg);
+    transform: skewY(-5deg);
+}
+
+.intro-bg:hover {
+  transform: skewY(0deg);
+  transform: scale(1.15);
+  transform: translateY(-25px);
+}
+
+.intro-bg-normal {
+  // background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  height: 100%;
+  width: 100%;
+  transform: translateY(-40px);
 }
 
 .content {
@@ -132,4 +147,24 @@ body {
   h4, p {
     color: black;
   }
+}
+
+.fab {
+  color: white;
+}
+.fab:hover {
+  color:  $color-hover;
+  transform: scale(1.5);
+}
+
+.jumbotron {
+  background-image: url('../img/jumbotron.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #333;
+}
+
+.mycontent-left { 
+  border-right: 1px dashed white;
 }
