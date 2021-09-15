@@ -131,21 +131,21 @@ textarea {
   text-align: center; 
 }
 
-.btn-primary.custom-btn {
-	background-color: #1B202C;
+.btn-primary {
+	background-color: #333;
 	border-color: #fff;
   line-height: 1.8;
   -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+  -moz-border-radius: 0;
+  
+
 }
 
 .main {
   border: 0;
   line-height: 1.8;
   -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+  -moz-border-radius: 0;
 }
 .notMain {
   border: 0;
@@ -163,7 +163,16 @@ textarea {
 
 .infoUs {
   background-color: #1B202C;
+  /* width:400px; */
+    	height:512px;
+    	background: linear-gradient(to top, #1B202C 50%, #1B202C 50%);
+      
 }
+.separate {
+  height:512px;
+  border-right: 1px dashed white; 
+}
+
 .fab {
   color: white; }
 
@@ -179,4 +188,27 @@ textarea {
   border-bottom: 1px solid #333; }
 
 .mycontent-left {
-  border-right: 1px dashed white; }
+  border-right: 1px dashed white; 
+}
+
+.inTouch {
+  height: 200px;
+  margin:0 auto;
+}
+.phone {
+  color: #257e25;
+  padding-left: 40px;
+}
+.support {
+  color: #257e25;
+}
+.web {
+  color: #257e25;
+}
+.address {
+  color: #257e25;
+  padding-left: 40px;
+}
+.sendYourMessage {
+  padding-left: 80px;
+}
