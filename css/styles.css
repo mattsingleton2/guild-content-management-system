@@ -107,3 +107,50 @@ body {
 .carouselCard h4, .carouselCard p {
   color: black; }
 
+.row input[type="text"]::placeholder { 
+    text-align: center; 
+}
+.row input[type="email"]::placeholder { 
+  text-align: center; 
+}
+
+option {
+  text-align: center; 
+}
+textarea {
+  text-align: center; 
+}
+
+.btn-primary.custom-btn {
+	background-color: #1B202C;
+	border-color: #fff;
+  line-height: 1.8;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.main {
+  border: 0;
+  line-height: 1.8;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.notMain {
+  border: 0;
+  line-height: 2.1;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.custom-control-description {
+  color: white;
+  font-size: 12px;
+  line-height: 2.7;
+  text-transform: uppercase;
+}
+
+.infoUs {
+  background-color: #1B202C;
+}
