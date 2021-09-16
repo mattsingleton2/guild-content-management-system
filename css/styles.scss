@@ -168,3 +168,80 @@ body {
 .mycontent-left { 
   border-right: 1px dashed white;
 }
+
+// Something here
+
+.inTouch {
+  height: 200px;
+  margin:0 auto;
+  .address, .web, .support {
+    color: rgb(42, 42, 173);
+    padding-left: 40px;
+  };
+}
+.inTouch .fa-phone-alt {
+  color: rgb(42, 42, 173);
+  padding-left: 10px;
+}
+
+.sendYourMessage {
+  padding-left: 80px;
+}
+.inTouch {
+  .fa-map-marker-alt, .fa-phone-alt, .fa-globe, .fa-envelope {
+    color:rgb(11, 47, 94);
+  }
+}
+
+.main {
+  color: #1B202C;
+}
+.linkd {
+  text-decoration:none;
+  color:#db42d4;
+}
+.linkd:hover{
+  color:#db42d4;
+}
+#forms {
+  input[type="text"]::placeholder, input[type="email"]::placeholder { 
+  text-align: center;
+  } 
+}
+
+#forms {
+  option, textarea {
+    text-align: center; 
+  }
+}
+
+.btn-primary,
+.btn-primary:hover {
+  background-color: #333;
+  border-color: #fff;
+  line-height: 1.8;
+}
+.notMain {
+  line-height: 2.1;
+}
+.custom-control-description {
+  color: white;
+  font-size: 12px;
+  line-height: 2.7;
+  text-transform: uppercase;
+}
+
+.infoUs {
+  background-color: #1B202C;
+  height:507px;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 10px;
+}
+.separate {
+  height:500px;
+  border-right: 1px dashed white; 
+}
+.forms {
+  border-radius: 10px;
+  height:507;
+}

@@ -46,99 +46,87 @@
         </div>
       </header>
       <!-- Contact us form Start here -->
-      <br />
       <div class="row-content">
-
-        <div class="col-md-12">
-          <div class="col-10">
-            <h2>Message Us</h2>
-          </div>
-          <div class="col-2">
-          </div>
+          <h2>Message Us</h2>
           <hr />
-        </div>
       </div>
      
       <div class="container">
           <div class="row">
             
-            <div class="infoUs col-3">
+            <div class="infoUs col-5">
               <div class="inTouch col-md-12">
                 <pre class="p-5"></pre>
                 <i class="fa fa-map-marker-alt " aria-hidden="true"></i>
-                <span class="m-2">Address</span>
+                <span class="m-2 main">Address</span>
                 <br>
                 <div class="address">
+                  <a href="https://www.google.com/maps/dir/The+White+House,+Pennsylvania+Avenue+Northwest,+Washington,+DC//@39.8036123,-77.7562761,7z/data=!4m9!4m8!1m5!1m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!2m2!1d-77.0365298!2d38.8976763!1m0!3e0" class= "linkd">
                   <span >12345 Nucamp Avenue</span>
                   <pre>Atlanta, GA 12345</pre>
+                </a>
                 </div>
                 
                 <pre></pre>
                 <i class="fa fa-phone-alt" aria-hidden="true"></i>
-                <span class="m-2">Lets Talk</span>
+                <span class="m-2 main">Let's Talk</span>
                 <br>
                 <div class="phone">
-                  <pre>1234567890</pre>
+                  <a href="tel:134567890" class= "linkd"><pre>134567890</pre></a>
                 </div>
                 
                 <pre></pre>
                 <i class="fa fa-envelope" aria-hidden="true"></i> 
-                <span>Geneal support</span>
+                <span class="main m-4">Email</span>
                 <br>
                 <div class="support">
-                  <pre>hello@gmail.com</pre>
+                  <a class= "linkd" href="mailto:gcms@gmail.com?subject=Mail from Our Site"><pre>gcms@gmail.com</pre></a>
                 </div>
                 
                 <pre></pre>
                 <i class="fas fa-globe" aria-hidden="true"></i> 
-                <span class="m-4">Website</span>
+                <span class="m-4 main">Website</span>
                 <br>
                 <div class="web">
-                  <pre>https://gcms.com</pre>
+                  <a href="index.html" class= "linkd"><pre>https://gcms.com</pre></a>
                 </div>
                
               </div>
             </div>
-            <div class="separate col-2">
+            <div class="separate col-1">
             </div>
-            <div class="col-2">
+            <div class="col-1">
             </div>
-          <div class="col-5 ">
+          <div class="forms col-5">
             <div class="col-md-12">
-              <form id="forms">
+              <divu id="forms">
                 <div class="row">
-                  <input
-                    type="text"
-                    class="form-control main"
-                    id="firstName"
-                    name="firstName"
-                    placeholder="First Name" required
-                  />
-                  <hr />
+                  <div class="col-6">
+                    <input type="text" class="form-control" placeholder="First Name" id="firstName" required>
+                  </div>
+                  <div class="col-6">
+                    <input type="text" class="form-control" placeholder="Last Name" id="lastName" required>
+                  </div>
+                </div>
+                <div>
+                  <pre></pre>
                 </div>
                 <div class="row">
-                  <input
-                    type="text"
-                    class="form-control main"
-                    id="lastName"
-                    name="lastName"
-                    placeholder="Last Name" required
-                  />
-                  <hr />
-                </div>
-                <div class="row">
-                  <input
+                  <div>
+                    <input
                     type="email"
-                    class="form-control main"
+                    class="form-control"
                     id="email"
                     name="email"
                     placeholder="Email" required
                   />
-                  <hr />
-                </div>
+                  </div>
+                  </div>
+                <pre></pre>
                 <div class="row">
-                  <select
-                    class="form-control main"
+                  <div>
+                    <select
+                    class="form-control"
                     id="inputGroupSelect"
                     title="select"
                     required
@@ -150,17 +138,22 @@
                     <option value="3">GCMS4</option>
                     <option value="3">GCMS5</option>
                   </select>
-                  <hr />
+                  </div>
                 </div>
+                <pre></pre>
                 <div class="row">
-                  <textarea
+                  <div>
+                    <textarea
                     class="form-control notMain"
                     id="message"
                     name="message"
                     rows="8"
                     placeholder="Your message..." required
                   ></textarea>
+                  </div>
+                  
                 </div>
+              </form>
                 <div class="form-group form-check">
                   <label class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" />
@@ -180,8 +173,6 @@
                   </div>
                 </div>  
               </div>
-            </form>
-          </div>
         </div>
        
         <!-- Contact us form end here -->
