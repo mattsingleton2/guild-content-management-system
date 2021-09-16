@@ -151,10 +151,11 @@ body {
 
 .fab {
   color: white;
-}
-.fab:hover {
-  color:  $color-hover;
-  transform: scale(1.5);
+  
+  :hover {
+    color:  $color-hover;
+    transform: scale(1.5);
+  }
 }
 
 .jumbotron {
