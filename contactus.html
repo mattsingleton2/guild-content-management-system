@@ -45,135 +45,117 @@
           </nav>
         </div>
       </header>
+
       <!-- Contact us form Start here -->
-      <div class="row-content">
-          <h2>Message Us</h2>
-          <hr />
-      </div>
-     
-      <div class="container">
+        <div class="container">
           <div class="row">
-            
-            <div class="infoUs col-5">
-              <div class="inTouch col-md-12">
-                <pre class="p-5"></pre>
-                <i class="fa fa-map-marker-alt " aria-hidden="true"></i>
-                <span class="m-2 main">Address</span>
-                <br>
-                <div class="address">
-                  <a href="https://www.google.com/maps/dir/The+White+House,+Pennsylvania+Avenue+Northwest,+Washington,+DC//@39.8036123,-77.7562761,7z/data=!4m9!4m8!1m5!1m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!2m2!1d-77.0365298!2d38.8976763!1m0!3e0" class= "linkd">
-                  <span >12345 Nucamp Avenue</span>
-                  <pre>Atlanta, GA 12345</pre>
-                </a>
+            <div class="col">
+              <h2>Message Us</h2>
+              <hr class="my-4" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col 6 mycontent-left" id="contactInformation">
+              <div class="row mt-5 mb-5"></div>
+              <div class="row mt-3 mb-3"></div>
+              <div class="row justify-content-end mt-5">
+                <div class="col-1">
+                  <i class="fas fa-map-marker-alt"></i>
                 </div>
-                
-                <pre></pre>
-                <i class="fa fa-phone-alt" aria-hidden="true"></i>
-                <span class="m-2 main">Let's Talk</span>
-                <br>
-                <div class="phone">
-                  <a href="tel:134567890" class= "linkd"><pre>134567890</pre></a>
+                <div class="col-7">
+                  <address>
+                    12345 NuCamp Street<br>
+                    Atlanta, GA 12345
+                  </address>
                 </div>
-                
-                <pre></pre>
-                <i class="fa fa-envelope" aria-hidden="true"></i> 
-                <span class="main m-4">Email</span>
-                <br>
-                <div class="support">
-                  <a class= "linkd" href="mailto:gcms@gmail.com?subject=Mail from Our Site"><pre>gcms@gmail.com</pre></a>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-1">
+                  <i class="fas fa-phone-alt"></i>
                 </div>
-                
-                <pre></pre>
-                <i class="fas fa-globe" aria-hidden="true"></i> 
-                <span class="m-4 main">Website</span>
-                <br>
-                <div class="web">
-                  <a href="index.html" class= "linkd"><pre>https://gcms.com</pre></a>
+                <div class="col-7">
+                  <address>
+                    (901) 463-0899
+                  </address>
                 </div>
-               
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-1">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="col-7">
+                  <address>
+                    admin@gcms.com
+                  </address>
+                </div>
               </div>
             </div>
-            <div class="separate col-1">
-            </div>
-            <div class="col-1">
-            </div>
-          <div class="forms col-5">
-            <div class="col-md-12">
-              <divu id="forms">
+            <div class="col 6" id="contactForm">
+              <div class="container">
                 <div class="row">
-                  <div class="col-6">
-                    <input type="text" class="form-control" placeholder="First Name" id="firstName" required>
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="firstName">First Name</label>
+                      <input class="form-control" id="firstName" aria-describedby="firstName">
+                      <small id="firstName" class="form-text text-muted">First Name</small>
+                    </div>
                   </div>
-                  <div class="col-6">
-                    <input type="text" class="form-control" placeholder="Last Name" id="lastName" required>
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="lastName">Last Name</label>
+                      <input class="form-control" id="lastName" aria-describedby="lastName">
+                      <small id="lastName" class="form-text text-muted">Last Name</small>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <pre></pre>
                 </div>
                 <div class="row">
-                  <div>
-                    <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="Email" required
-                  />
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="emailAddress">Email address</label>
+                      <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
                   </div>
-                  </div>
-                <pre></pre>
+                </div>
                 <div class="row">
-                  <div>
-                    <select
-                    class="form-control"
-                    id="inputGroupSelect"
-                    title="select"
-                    required
-                  >
-                    <option selected disabled value="">SELECT...</option>
-                    <option value="1">GCMS1</option>
-                    <option value="2">GCMS2</option>
-                    <option value="3">GCMS3</option>
-                    <option value="3">GCMS4</option>
-                    <option value="3">GCMS5</option>
-                  </select>
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="contactReason">Contact Reason</label>
+                      <select class="form-control" id="contactReason">
+                        <option>Join our Team</option>
+                        <option>Request a Feature</option>
+                        <option>Request Information</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
-                <pre></pre>
                 <div class="row">
-                  <div>
-                    <textarea
-                    class="form-control notMain"
-                    id="message"
-                    name="message"
-                    rows="8"
-                    placeholder="Your message..." required
-                  ></textarea>
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="contactMessage">Your message</label>
+                      <textarea class="form-control" id="contactMessage" rows="5"></textarea>
+                    </div>
                   </div>
-                  
                 </div>
-              </form>
-                <div class="form-group form-check">
-                  <label class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" />
-                    <span class="custom-control-description ml-4"
-                      >Send copy to my-email</span
-                    >
-                  </label>
-                </div>
-                <div class=" sendYourMessage">
-                  <div
-                    class="col-md-10"
-                    id="submit"
-                  >
-                    <button type="submit" class="btn btn-primary">
-                      Send Your Message
-                    </button>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="sendEmail">
+                      <label class="form-check-label" for="sendEmail">Send a copy to my Email</label>
+                    </div>
                   </div>
-                </div>  
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
         </div>
+          
+     
        
         <!-- Contact us form end here -->
         <footer class="mastfoot mt-auto">
