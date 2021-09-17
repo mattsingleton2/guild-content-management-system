@@ -2,7 +2,8 @@
  * Globals
  */
 
- $color-hover: #40E340;
+$color-hover: #40E340;
+$color-darkgrey: #333;
 
 /* Links */
 a,
@@ -15,7 +16,7 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: $color-darkgrey;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -117,16 +118,15 @@ body {
 * Meet Us Styling
 */
 .intro-bg {
-    position: center;
-    background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-    height: 100%;
-    transform: skewY(-5deg);
-}
-
-.intro-bg:hover {
-  transform: skewY(0deg);
-  transform: scale(1.15);
-  transform: translateY(-25px);
+  position: center;
+  background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  height: 100%;
+  transform: skewY(-5deg);
+    :hover {
+      transform: skewY(0deg);
+      transform: scale(1.15);
+      transform: translateY(-25px);
+    }
 }
 
 .intro-bg-normal {
@@ -162,11 +162,17 @@ body {
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid  $color-darkgrey;
 }
 
 .mycontent-left { 
   border-right: 1px dashed white;
+}
+
+#teamMeet {
+  .h6 {
+    color: $color-darkgrey;
+  }
 }
 
 // Something here
@@ -217,7 +223,7 @@ body {
 
 .btn-primary,
 .btn-primary:hover {
-  background-color: #333;
+  background-color: $color-darkgrey;
   border-color: #fff;
   line-height: 1.8;
 }
