@@ -133,64 +133,13 @@ body {
 .mycontent-left {
   border-right: 1px dashed white; }
 
-.inTouch {
-  height: 200px;
-  margin: 0 auto; }
-  .inTouch .address, .inTouch .web, .inTouch .support {
-    color: #2a2aad;
-    padding-left: 40px; }
-
-.inTouch .fa-phone-alt {
-  color: #2a2aad;
-  padding-left: 10px; }
-
-.sendYourMessage {
-  padding-left: 80px; }
-
-.inTouch .fa-map-marker-alt, .inTouch .fa-phone-alt, .inTouch .fa-globe, .inTouch .fa-envelope {
-  color: #0b2f5e; }
-
-.main {
-  color: #1B202C; }
-
-.linkd {
-  text-decoration: none;
-  color: #db42d4; }
-
-.linkd:hover {
-  color: #db42d4; }
-
-#forms input[type="text"]::placeholder, #forms input[type="email"]::placeholder {
-  text-align: center; }
-
-#forms option, #forms textarea {
-  text-align: center; }
 
 .btn-primary,
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
   background-color: #333;
   border-color: #fff;
-  line-height: 1.8; }
+  line-height: 1.8; 
+}
 
-.notMain {
-  line-height: 2.1; }
 
-.custom-control-description {
-  color: white;
-  font-size: 12px;
-  line-height: 2.7;
-  text-transform: uppercase; }
-
-.infoUs {
-  background-color: #1B202C;
-  height: 507px;
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-  border-radius: 10px; }
-
-.separate {
-  height: 500px;
-  border-right: 1px dashed white; }
-
-.forms {
-  border-radius: 10px;
-  height: 507; }
